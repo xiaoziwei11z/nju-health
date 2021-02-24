@@ -1,0 +1,19 @@
+jkdk:
+  username: MF20320035
+  password: qazwow1998
+  from: 237795483@qq.com
+  to: duannann@163.com
+spring:
+  mail:
+    host: smtp.qq.com
+    username: 237795483@qq.com
+    password: olfjetnlzshfbifa
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+server:
+  port: 10087
