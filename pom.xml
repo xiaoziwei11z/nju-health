@@ -72,7 +72,6 @@
             <plugin>
                 <groupId>com.spotify</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
-                <version>0.4.13</version>
                 <configuration>
                     <imageName>172.19.240.196:85/jkdk/${project.artifactId}:${project.version}</imageName>
                     <baseImage>jdk1.8</baseImage>
