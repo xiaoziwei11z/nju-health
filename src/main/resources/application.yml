@@ -1,13 +1,13 @@
 jkdk:
-  username: MF20320035
-  password: qazwow1998
-  from: 237795483@qq.com
-  to: duannann@163.com
+  username: ************
+  password: ************
+  from: ************
+  to: ************
 spring:
   mail:
-    host: smtp.qq.com
-    username: 237795483@qq.com
-    password: olfjetnlzshfbifa
+    host: ************
+    username: ************
+    password: ************
     properties:
       mail:
         smtp:
