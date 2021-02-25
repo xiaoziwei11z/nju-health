@@ -1,13 +1,13 @@
 jkdk:
-  username: ************
+  username: ************ #统一认证的用户名密码
   password: ************
-  from: ************
-  to: ************
+  from: ************ #发送邮箱地址 
+  to: ************  #接收邮箱地址
 spring:
   mail:
-    host: ************
-    username: ************
-    password: ************
+    host: ************ #发送邮箱所在服务器 例如smtp.qq.com
+    username: ************ #发送邮箱地址
+    password: ************ #发送邮箱POP3/SMTP服务授权码，需要先在自己邮箱获取
     properties:
       mail:
         smtp:
