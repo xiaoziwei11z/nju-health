@@ -83,7 +83,7 @@
                 <groupId>com.spotify</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
                 <configuration>
-                    <imageName>172.19.240.196:85/jkdk/${project.artifactId}:${project.version}</imageName>
+                    <imageName>Docker镜像仓库IP:PORT/jkdk/${project.artifactId}:${project.version}</imageName>
                     <baseImage>jdk1.8</baseImage>
                     <entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
                     <resources>
@@ -93,7 +93,7 @@
                             <include>${project.build.finalName}.jar</include>
                         </resource>
                     </resources>
-                    <dockerHost>http://172.19.240.196:2375</dockerHost>
+                    <dockerHost>http://Docker服务器的IP:2375</dockerHost>
                 </configuration>
             </plugin>
         </plugins>
