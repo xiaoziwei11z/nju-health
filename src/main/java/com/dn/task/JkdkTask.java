@@ -80,7 +80,7 @@ public class JkdkTask {
     private CookieStore cookieStore;
     private String username;
     private String password;
-    private String currLocation = "%E5%B1%B1%E4%B8%9C%E7%9C%81%E8%8F%8F%E6%B3%BD%E5%B8%82%E7%89%A1%E4%B8%B9%E5%8C%BA%E5%92%8C%E5%B9%B3%E5%8D%97%E8%B7%AF";
+    private String currLocation = "";
     @Autowired
     private MailService mailService;
 
